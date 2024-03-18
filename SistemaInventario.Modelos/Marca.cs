@@ -2,18 +2,17 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace SistemaInventario.Modelos
 {
-    public class Categoria
+    public class Marca
     {
         [Key]
         public int Id { get; set; }
 
-        [Required(ErrorMessage ="Nombre es requerido")]
+        [Required(ErrorMessage = "Nombre es requerido")]
         [MaxLength(60, ErrorMessage = "Nombre debe ser Maximo 60 caracteres")]
         public string Nombre { get; set; }
 
@@ -22,6 +21,6 @@ namespace SistemaInventario.Modelos
         public string Descripcion { get; set; }
 
         [Required(ErrorMessage = "Estado es requerido")]
-        public bool EstadoC { get; set; }
+        public bool EstadoM { get; set; }
     }
 }
