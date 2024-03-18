@@ -13,28 +13,28 @@ namespace SistemaInventario.AccesoDatos.Repositorio
     public class Repositorio<T> : IRepositorio<T> where T : class
     {
         private readonly ApplicationDbContext _db;
-        internal DbSet<T> dbset;
+        internal DbSet<T> dbSet;
 
         public Repositorio(ApplicationDbContext db)
         {
             _db = db;
-            this.dbset = _db.Set<T>();  
+            this.dbSet = _db.Set<T>();  
         }
 
         public async Task Agregar(T entidad)
         {
-            await dbset.AddAsync(entidad); // esto es equivalente a un insert into table
+            await dbSet.AddAsync(entidad); // esto es equivalente a un insert into table
         }
 
         public async Task<T> Obtener(int id)
         {
-            return await dbset.FindAsync(id);  // esto es equivalente a un select * from (solo por ID)
+            return await dbSet.FindAsync(id);  // esto es equivalente a un select * from (solo por ID)
         }
 
         public async Task<IEnumerable<T>> ObtenerTodos(Expression<Func<T, bool>> filtro = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderby = null, string incluirPropiedades = null, bool istracking = true)
         {
-            IQueryable<T> query = dbset;
-            if (filtro == null)
+            IQueryable<T> query = dbSet;
+            if (filtro != null)
             {
                 query = query.Where(filtro); // esto es equivalente a un select * from Where
             }
@@ -59,8 +59,8 @@ namespace SistemaInventario.AccesoDatos.Repositorio
         public async Task<T> ObtenerPrimero(Expression<Func<T, bool>> filtro = null, 
             string incluirPropiedades = null, bool istracking = true)
         {
-            IQueryable<T> query = dbset;
-            if (filtro == null)
+            IQueryable<T> query = dbSet;
+            if (filtro != null)
             {
                 query = query.Where(filtro); // esto es equivalente a un select * from Where
             }
@@ -84,12 +84,12 @@ namespace SistemaInventario.AccesoDatos.Repositorio
 
         public void Remover(T entidad)
         {
-            dbset.Remove(entidad);
+            dbSet.Remove(entidad);
         }
 
         public void RemoverRango(IEnumerable<T> entidad)
         {
-            dbset.RemoveRange(entidad);
+            dbSet.RemoveRange(entidad);
         }
     }
 }

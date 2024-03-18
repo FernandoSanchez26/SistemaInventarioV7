@@ -25,10 +25,8 @@ namespace SistemaInventario.AccesoDatos.Repositorio
             {
                 bodegaBD.Nombre = bodega.Nombre;
                 bodegaBD.Descripcion = bodega.Descripcion;
-                bodegaBD.Ëstado = bodega.Ëstado;
+                bodegaBD.EstadoB = bodega.EstadoB;
                 _db.SaveChanges();
-
-
             }
         }
     }

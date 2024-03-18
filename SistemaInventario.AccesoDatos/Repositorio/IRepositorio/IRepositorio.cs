@@ -13,7 +13,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
 
         Task<IEnumerable<T>> ObtenerTodos(
             Expression<Func<T, bool>> filtro =null,
-            Func<IQueryable<T>, IOrderedQueryable<T>> orderby =null,
+            Func<IQueryable<T>, IOrderedQueryable<T>> orderBy =null,
             string incluirPropiedades = null, 
             bool istracking = true
             );
