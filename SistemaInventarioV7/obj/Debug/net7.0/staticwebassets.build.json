@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rB7mrBBBkKwA+z3HFd0XziaDAMQdBvBq393m51RiW2k=",
+  "Hash": "J9iE0myi5qyicsNcAA5j8mNW/sKSeecQ6lvUWQVgHAQ=",
   "Source": "SistemaInventarioV7",
   "BasePath": "_content/SistemaInventarioV7",
   "Mode": "Default",
@@ -1120,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\bodega.js"
+    },
+    {
+      "Identity": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\categoria.js",
+      "SourceId": "SistemaInventarioV7",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\",
+      "BasePath": "_content/SistemaInventarioV7",
+      "RelativePath": "js/categoria.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\categoria.js"
     },
     {
       "Identity": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\site.js",
