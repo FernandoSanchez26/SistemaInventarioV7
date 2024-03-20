@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\0c57dd34-ba5f-4f7a-88c3-4891c228b6b3.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\0c57dd34-ba5f-4f7a-88c3-4891c228b6b3.JPG"
+    },
+    {
+      "Id": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\Apple IPhone 12 Pro 6.1 Ram 6GB 512FB Unlocked.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\Apple IPhone 12 Pro 6.1 Ram 6GB 512FB Unlocked.JPG"
+    },
+    {
+      "Id": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\bae02711-a993-42db-91b2-7022e33ecd6e.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\bae02711-a993-42db-91b2-7022e33ecd6e.JPG"
+    },
+    {
       "Id": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\bodega.js",
       "PackagePath": "staticwebassets\\js\\bodega.js"
     },
@@ -23,6 +35,10 @@
     {
       "Id": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\marca.js",
       "PackagePath": "staticwebassets\\js\\marca.js"
+    },
+    {
+      "Id": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\producto.js",
+      "PackagePath": "staticwebassets\\js\\producto.js"
     },
     {
       "Id": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\site.js",
