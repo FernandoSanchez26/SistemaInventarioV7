@@ -13,8 +13,36 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\icono.ico",
+      "PackagePath": "staticwebassets\\imagenes\\icono.ico"
+    },
+    {
+      "Id": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\icono.png",
+      "PackagePath": "staticwebassets\\imagenes\\icono.png"
+    },
+    {
       "Id": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\0c57dd34-ba5f-4f7a-88c3-4891c228b6b3.JPG",
       "PackagePath": "staticwebassets\\imagenes\\producto\\0c57dd34-ba5f-4f7a-88c3-4891c228b6b3.JPG"
+    },
+    {
+      "Id": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\3c98d360-976f-4c80-86d0-112de1287a58.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\3c98d360-976f-4c80-86d0-112de1287a58.JPG"
+    },
+    {
+      "Id": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\43448f6e-738a-4adb-bb42-865b081ccfeb.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\43448f6e-738a-4adb-bb42-865b081ccfeb.JPG"
+    },
+    {
+      "Id": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\440887ed-1d4e-4e15-b44f-ea92ab54ef86.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\440887ed-1d4e-4e15-b44f-ea92ab54ef86.JPG"
+    },
+    {
+      "Id": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\987d5c02-c2a6-4bc6-ba16-64de80082f84.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\987d5c02-c2a6-4bc6-ba16-64de80082f84.JPG"
+    },
+    {
+      "Id": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\9bf9031a-335d-485a-a2bd-3dc4dee57cdd.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\9bf9031a-335d-485a-a2bd-3dc4dee57cdd.JPG"
     },
     {
       "Id": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\Apple IPhone 12 Pro 6.1 Ram 6GB 512FB Unlocked.JPG",
@@ -23,6 +51,10 @@
     {
       "Id": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\bae02711-a993-42db-91b2-7022e33ecd6e.JPG",
       "PackagePath": "staticwebassets\\imagenes\\producto\\bae02711-a993-42db-91b2-7022e33ecd6e.JPG"
+    },
+    {
+      "Id": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\fab25fef-6376-4602-809e-a52a4d9d3771.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\fab25fef-6376-4602-809e-a52a4d9d3771.JPG"
     },
     {
       "Id": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\bodega.js",
