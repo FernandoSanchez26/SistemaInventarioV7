@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LG2+yRwUcclvJzL3+uVvXdKZddIsa7Kxprt1RERoPzE=",
+  "Hash": "dhwJ9ICoTIJck31g7qazQWw7OTcNpnoiCmp450aiLwI=",
   "Source": "SistemaInventarioV7",
   "BasePath": "_content/SistemaInventarioV7",
   "Mode": "Default",
@@ -1273,6 +1273,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\producto\\bae02711-a993-42db-91b2-7022e33ecd6e.JPG"
+    },
+    {
+      "Identity": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\d19261ad-fc62-4f37-a5ae-6d1de65020bf.JPG",
+      "SourceId": "SistemaInventarioV7",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\",
+      "BasePath": "_content/SistemaInventarioV7",
+      "RelativePath": "imagenes/producto/d19261ad-fc62-4f37-a5ae-6d1de65020bf.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\producto\\d19261ad-fc62-4f37-a5ae-6d1de65020bf.JPG"
     },
     {
       "Identity": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\producto\\fab25fef-6376-4602-809e-a52a4d9d3771.JPG",
