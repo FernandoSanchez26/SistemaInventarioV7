@@ -57,7 +57,7 @@ namespace SistemaInventario.AccesoDatos.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(
-                name: "Aoellidos",
+                name: "Apellidos",
                 table: "AspNetUsers");
 
             migrationBuilder.DropColumn(
