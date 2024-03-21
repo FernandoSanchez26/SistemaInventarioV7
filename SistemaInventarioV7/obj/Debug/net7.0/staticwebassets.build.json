@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dhwJ9ICoTIJck31g7qazQWw7OTcNpnoiCmp450aiLwI=",
+  "Hash": "btBZmh/dFEf9PTwfX0+L4K3D7oKa7NSZ5xvuFW/Py4c=",
   "Source": "SistemaInventarioV7",
   "BasePath": "_content/SistemaInventarioV7",
   "Mode": "Default",
@@ -1392,6 +1392,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\usuario.js",
+      "SourceId": "SistemaInventarioV7",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\",
+      "BasePath": "_content/SistemaInventarioV7",
+      "RelativePath": "js/usuario.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\usuario.js"
     },
     {
       "Identity": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

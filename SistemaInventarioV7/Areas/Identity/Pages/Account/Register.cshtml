@@ -65,8 +65,8 @@
                 {
                     <div class="form-floating mb-3">
                         <lable asp-for="Input.Role"> Rol </lable>
-                        <select asp-for="Input.Role" class="form-select" asp-items="@Model.Input.ListaRol">
-                            <option value="">--Seleccione el Rol</option>
+                        <select asp-for="Input.Role" asp-items="@Model.Input.ListaRol" class="form-select">
+                            <option disabled selected>--Seleccione el Rol</option>
                         </select>
                     
                     </div>
