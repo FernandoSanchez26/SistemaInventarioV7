@@ -1,4 +1,5 @@
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Utilidades\bin\Debug\net7.0\SistemaInventario.Utilidades.deps.json
+D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Utilidades\bin\Debug\net7.0\SistemaInventario.Utilidades.runtimeconfig.json
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Utilidades\bin\Debug\net7.0\SistemaInventario.Utilidades.dll
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Utilidades\bin\Debug\net7.0\SistemaInventario.Utilidades.pdb
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Utilidades\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Antiforgery.dll
@@ -300,6 +301,5 @@ D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Utilidades\obj\Deb
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Utilidades\obj\Debug\net7.0\SistemaInventario.Utilidades.dll
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Utilidades\obj\Debug\net7.0\refint\SistemaInventario.Utilidades.dll
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Utilidades\obj\Debug\net7.0\SistemaInventario.Utilidades.pdb
-D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Utilidades\obj\Debug\net7.0\ref\SistemaInventario.Utilidades.dll
-D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Utilidades\bin\Debug\net7.0\SistemaInventario.Utilidades.runtimeconfig.json
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Utilidades\obj\Debug\net7.0\SistemaInventario.Utilidades.genruntimeconfig.cache
+D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Utilidades\obj\Debug\net7.0\ref\SistemaInventario.Utilidades.dll

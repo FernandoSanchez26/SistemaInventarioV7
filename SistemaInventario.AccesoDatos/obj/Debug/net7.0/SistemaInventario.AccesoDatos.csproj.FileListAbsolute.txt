@@ -1,4 +1,5 @@
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\bin\Debug\net7.0\SistemaInventario.AccesoDatos.deps.json
+D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\bin\Debug\net7.0\SistemaInventario.AccesoDatos.runtimeconfig.json
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\bin\Debug\net7.0\SistemaInventario.AccesoDatos.dll
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\bin\Debug\net7.0\SistemaInventario.AccesoDatos.pdb
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Antiforgery.dll
@@ -292,6 +293,10 @@ D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\bin\De
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\bin\Debug\net7.0\refs\System.Xml.XPath.dll
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\bin\Debug\net7.0\refs\System.Xml.XPath.XDocument.dll
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\bin\Debug\net7.0\refs\WindowsBase.dll
+D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\bin\Debug\net7.0\SistemaInventario.Modelos.dll
+D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\bin\Debug\net7.0\SistemaInventario.Utilidades.dll
+D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\bin\Debug\net7.0\SistemaInventario.Modelos.pdb
+D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\bin\Debug\net7.0\SistemaInventario.Utilidades.pdb
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\obj\Debug\net7.0\SistemaInventario.AccesoDatos.csproj.AssemblyReference.cache
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\obj\Debug\net7.0\SistemaInventario.AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\obj\Debug\net7.0\SistemaInventario.AccesoDatos.AssemblyInfoInputs.cache
@@ -301,10 +306,5 @@ D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\obj\De
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\obj\Debug\net7.0\SistemaInventario.AccesoDatos.dll
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\obj\Debug\net7.0\refint\SistemaInventario.AccesoDatos.dll
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\obj\Debug\net7.0\SistemaInventario.AccesoDatos.pdb
-D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\obj\Debug\net7.0\ref\SistemaInventario.AccesoDatos.dll
-D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\bin\Debug\net7.0\SistemaInventario.Modelos.dll
-D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\bin\Debug\net7.0\SistemaInventario.Utilidades.dll
-D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\bin\Debug\net7.0\SistemaInventario.Modelos.pdb
-D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\bin\Debug\net7.0\SistemaInventario.Utilidades.pdb
-D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\bin\Debug\net7.0\SistemaInventario.AccesoDatos.runtimeconfig.json
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\obj\Debug\net7.0\SistemaInventario.AccesoDatos.genruntimeconfig.cache
+D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.AccesoDatos\obj\Debug\net7.0\ref\SistemaInventario.AccesoDatos.dll

@@ -1,4 +1,5 @@
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\bin\Debug\net7.0\SistemaInventario.Modelos.deps.json
+D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\bin\Debug\net7.0\SistemaInventario.Modelos.runtimeconfig.json
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\bin\Debug\net7.0\SistemaInventario.Modelos.dll
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\bin\Debug\net7.0\SistemaInventario.Modelos.pdb
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Antiforgery.dll
@@ -292,17 +293,16 @@ D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\bin\Debug\
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\bin\Debug\net7.0\refs\System.Xml.XPath.dll
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\bin\Debug\net7.0\refs\System.Xml.XPath.XDocument.dll
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\bin\Debug\net7.0\refs\WindowsBase.dll
+D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\bin\Debug\net7.0\SistemaInventario.Utilidades.dll
+D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\bin\Debug\net7.0\SistemaInventario.Utilidades.pdb
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\obj\Debug\net7.0\SistemaInventario.Modelos.csproj.AssemblyReference.cache
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\obj\Debug\net7.0\SistemaInventario.Modelos.GeneratedMSBuildEditorConfig.editorconfig
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\obj\Debug\net7.0\SistemaInventario.Modelos.AssemblyInfoInputs.cache
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\obj\Debug\net7.0\SistemaInventario.Modelos.AssemblyInfo.cs
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\obj\Debug\net7.0\SistemaInventario.Modelos.csproj.CoreCompileInputs.cache
+D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\obj\Debug\net7.0\SistemaInventario.Modelos.csproj.CopyComplete
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\obj\Debug\net7.0\SistemaInventario.Modelos.dll
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\obj\Debug\net7.0\refint\SistemaInventario.Modelos.dll
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\obj\Debug\net7.0\SistemaInventario.Modelos.pdb
-D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\obj\Debug\net7.0\ref\SistemaInventario.Modelos.dll
-D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\bin\Debug\net7.0\SistemaInventario.Utilidades.dll
-D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\bin\Debug\net7.0\SistemaInventario.Utilidades.pdb
-D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\obj\Debug\net7.0\SistemaInventario.Modelos.csproj.CopyComplete
-D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\bin\Debug\net7.0\SistemaInventario.Modelos.runtimeconfig.json
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\obj\Debug\net7.0\SistemaInventario.Modelos.genruntimeconfig.cache
+D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventario.Modelos\obj\Debug\net7.0\ref\SistemaInventario.Modelos.dll
