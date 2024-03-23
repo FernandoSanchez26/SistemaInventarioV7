@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FZbQFwBhitRu0rZs1iDwinseE2vPgIPvgbGEtM8sYNER/Od/BRkGHCFKRH+fT3nfqQkxVPhzcz4y02hG7X2qGw==",
+  "dgSpecHash": "Cg/ln3Wj4hEderfBwUWrKkMr32QMsg6lwOv2U8t0dZNsTDreykf4RXKMVSQUau8IW3mi/U+XJVcMEJNcRNOS+Q==",
   "success": true,
   "projectFilePath": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\SistemaInventarioV7.csproj",
   "expectedPackageFiles": [
@@ -140,6 +140,7 @@
     "C:\\Users\\RYZEN\\.nuget\\packages\\nuget.projectmodel\\6.6.1\\nuget.projectmodel.6.6.1.nupkg.sha512",
     "C:\\Users\\RYZEN\\.nuget\\packages\\nuget.protocol\\6.6.1\\nuget.protocol.6.6.1.nupkg.sha512",
     "C:\\Users\\RYZEN\\.nuget\\packages\\nuget.versioning\\6.6.1\\nuget.versioning.6.6.1.nupkg.sha512",
+    "C:\\Users\\RYZEN\\.nuget\\packages\\rotativa.aspnetcore\\1.3.2\\rotativa.aspnetcore.1.3.2.nupkg.sha512",
     "C:\\Users\\RYZEN\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\RYZEN\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\RYZEN\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

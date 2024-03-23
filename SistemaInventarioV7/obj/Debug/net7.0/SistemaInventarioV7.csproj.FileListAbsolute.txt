@@ -589,3 +589,6 @@ D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventarioV7\obj\Debug\net7.0
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventarioV7\obj\Debug\net7.0\SistemaInventarioV7.pdb
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventarioV7\obj\Debug\net7.0\SistemaInventarioV7.genruntimeconfig.cache
 D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventarioV7\obj\Debug\net7.0\ref\SistemaInventarioV7.dll
+D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventarioV7\bin\Debug\net7.0\Rotativa\Windows\wkhtmltoimage.exe
+D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventarioV7\bin\Debug\net7.0\Rotativa\Windows\wkhtmltopdf.exe
+D:\Fernando\Curso Udemy\SistemaInventarioV7\SistemaInventarioV7\bin\Debug\net7.0\Rotativa.AspNetCore.dll

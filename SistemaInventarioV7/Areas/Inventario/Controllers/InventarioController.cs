@@ -9,6 +9,7 @@ using System.Globalization;
 using System.Security.Claims;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Rotativa.AspNetCore;
 
 namespace SistemaInventarioV7.Areas.Inventario.Controllers
 {
@@ -215,6 +216,36 @@ namespace SistemaInventarioV7.Areas.Inventario.Controllers
                 );
 
             return View(kardexInventarioVM);
+        }
+
+        
+
+        public async Task<IActionResult> ImprimirKardexEs(string fechaInicio, string fechaFinal, int productoId)
+        {
+            KardexInventarioVM kardexInventarioVM = new KardexInventarioVM();
+            kardexInventarioVM.Producto = new Producto();
+            kardexInventarioVM.Producto = await _unidadTrabajo.Producto.Obtener(productoId);
+
+            var cultureInfo = CultureInfo.CreateSpecificCulture("es-ES");
+
+            kardexInventarioVM.FechaInicio = DateTime.Parse(fechaInicio); //  00:00:00
+            kardexInventarioVM.FechaFinal = DateTime.Parse(fechaFinal).AddHours(23).AddMinutes(59);
+
+            kardexInventarioVM.KardexInventarioLista = await _unidadTrabajo.KardexInventario.ObtenerTodos(
+                                                                   k => k.BodegaProducto.ProductoId == productoId &&
+                                                                       (k.FechaRegistro >= kardexInventarioVM.FechaInicio &&
+                                                                        k.FechaRegistro <= kardexInventarioVM.FechaFinal),
+                                            incluirPropiedades: "BodegaProducto,BodegaProducto.Producto,BodegaProducto.Bodega",
+                                            orderBy: o => o.OrderBy(o => o.FechaRegistro)
+                );
+
+            return new ViewAsPdf("ImprimirKardex", kardexInventarioVM)
+            {
+                FileName = "KardexProducto.pdf",
+                PageOrientation = Rotativa.AspNetCore.Options.Orientation.Portrait,
+                PageSize = Rotativa.AspNetCore.Options.Size.A4,
+                CustomSwitches = "--page-offset 0 --footer-center [page] --footer-font-size 12"
+            };
         }
 
 
