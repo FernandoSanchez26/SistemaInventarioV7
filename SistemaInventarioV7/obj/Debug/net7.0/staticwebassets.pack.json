@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\confirmacion.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\confirmacion.jpg"
+    },
+    {
       "Id": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\icono.ico",
       "PackagePath": "staticwebassets\\imagenes\\icono.ico"
     },
@@ -75,6 +79,10 @@
     {
       "Id": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\marca.js",
       "PackagePath": "staticwebassets\\js\\marca.js"
+    },
+    {
+      "Id": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\orden.js",
+      "PackagePath": "staticwebassets\\js\\orden.js"
     },
     {
       "Id": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\producto.js",

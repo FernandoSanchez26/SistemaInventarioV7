@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "i0RQakcV6KddMAUZqmJzFx4IhHBi9ttbJ6GzhV3zckk=",
+  "Hash": "O9H4CPbGlZb7SCQEm+1ICNQ/6Pf09LF4Sjo1eio6VzU=",
   "Source": "SistemaInventarioV7",
   "BasePath": "_content/SistemaInventarioV7",
   "Mode": "Default",
@@ -1105,6 +1105,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\confirmacion.jpg",
+      "SourceId": "SistemaInventarioV7",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\",
+      "BasePath": "_content/SistemaInventarioV7",
+      "RelativePath": "imagenes/confirmacion.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\confirmacion.jpg"
+    },
+    {
       "Identity": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\imagenes\\icono.ico",
       "SourceId": "SistemaInventarioV7",
       "SourceType": "Discovered",
@@ -1375,6 +1392,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\marca.js"
+    },
+    {
+      "Identity": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\orden.js",
+      "SourceId": "SistemaInventarioV7",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\",
+      "BasePath": "_content/SistemaInventarioV7",
+      "RelativePath": "js/orden.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\orden.js"
     },
     {
       "Identity": "D:\\Fernando\\Curso Udemy\\SistemaInventarioV7\\SistemaInventarioV7\\wwwroot\\js\\producto.js",
