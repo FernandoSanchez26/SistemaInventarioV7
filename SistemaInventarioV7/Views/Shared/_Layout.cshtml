@@ -1,4 +1,6 @@
 ﻿@using SistemaInventario.Utilidades
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor httpContextAccessor
 
 <!DOCTYPE html>
 <html lang="en">
@@ -36,52 +38,72 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
 
-                        <li class="nav-item dropdown">
-                            @if (User.IsInRole(DS.Role_Admin) || User.IsInRole(DS.Role_Inventario))
-                            {
+                        @if (User.IsInRole(DS.Role_Admin) || User.IsInRole(DS.Role_Inventario))
+                        {
+                            <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
                                     Contenido
                                 </a>
-
                                 <ul class="dropdown-menu">
                                     @if (User.IsInRole(DS.Role_Admin))
                                     {
                                         <li><a class="dropdown-item" asp-area="Admin" asp-controller="Bodega" asp-action="Index">Bodegas</a></li>
                                         <li><a class="dropdown-item" asp-area="Admin" asp-controller="Categoria" asp-action="Index">Categorias</a></li>
                                         <li><a class="dropdown-item" asp-area="Admin" asp-controller="Marca" asp-action="Index">Marcas</a></li>
-                                        <li><a class="dropdown-item" asp-area="Admin" asp-controller="Compania" asp-action="Upsert">Compañias</a></li>
+                                        <li><a class="dropdown-item" asp-area="Admin" asp-controller="Compania" asp-action="Upsert">Compania</a></li>
                                     }
                                     <li><a class="dropdown-item" asp-area="Admin" asp-controller="Producto" asp-action="Index">Productos</a></li>
                                 </ul>
+                            </li>
+                        }
 
-                            }
-                        <li>
-
-
-                        <li class="nav-item dropdown">
-                            @if (User.IsInRole(DS.Role_Admin))
-                            {
+                        @if (User.IsInRole(DS.Role_Admin))
+                        {
+                            <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
                                     Usuario
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" asp-area="Admin" asp-controller="Usuario" asp-action="Index">Usuarios</a></li>
                                 </ul>
-                            }                            
-                        <li>
+                            </li>
+                        }
 
-                        <li class="nav-item dropdown">
-                            @if (User.IsInRole(DS.Role_Admin) || User.IsInRole(DS.Role_Inventario))
-                             {
+                        @if (User.IsInRole(DS.Role_Admin) || User.IsInRole(DS.Role_Inventario))
+                        {
+                            <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
                                     Inventario
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" asp-area="Inventario" asp-controller="Inventario" asp-action="Index">StockProductos</a></li>
+                                    <li><a class="dropdown-item" asp-area="Inventario" asp-controller="Inventario" asp-action="Index">Stock Productos</a></li>
                                 </ul>
-                             }
-                        <li>
+                            </li>
+                        }
 
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="Admin" asp-controller="Orden" asp-action="Index">Ordenes</a>
+                        </li>
+
+                        @if (httpContextAccessor.HttpContext.Session.GetInt32(DS.ssCarroCompras) != null)
+                        {
+                            <li>
+                                <a asp-area="Inventario" asp-controller="Carro" asp-action="Index" class="nav-link">
+                                    @{
+                                        var numeroProductos = httpContextAccessor.HttpContext.Session.GetInt32(DS.ssCarroCompras);
+                                    }
+                                    <i class="bi bi-cart-fill text-primary">&nbsp; (@numeroProductos) </i>
+                                </a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li>
+                                <a href="#" class="nav-link">
+                                    <i class="bi bi-cart-fill text-primary">&nbsp; (0) </i>
+                                </a>
+                            </li>
+                        }
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
