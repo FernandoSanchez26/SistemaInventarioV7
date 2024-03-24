@@ -10,6 +10,7 @@ namespace SistemaInventario.Modelos.ViewModels
         public class CarroCompraVM
         {
             public Compania Compania { get; set; }
+
             public Producto Producto { get; set; }
 
             public int Stock { get; set; }
@@ -17,6 +18,7 @@ namespace SistemaInventario.Modelos.ViewModels
             public CarroCompra CarroCompra { get; set; }
 
             public IEnumerable<CarroCompra> CarroCompraLista { get; set; }
+
             public Orden Orden { get; set; }
         }
     }
